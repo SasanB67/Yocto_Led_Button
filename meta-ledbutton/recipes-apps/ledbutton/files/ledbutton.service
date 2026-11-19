@@ -1,0 +1,9 @@
+[Unit]
+Description=Push button controlled LED
+
+[Service]
+ExecStart=/usr/bin/ledbutton
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
