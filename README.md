@@ -1,4 +1,5 @@
 Description: Controls an LED using a pushbutton. The LED turns ON while the button is pressed and OFF when released.
+Required HW: Raspberrypi3-64
 
 Pin connections and wiring:
 - GPIO17 (physical pin 11): Connect to a 220–330 Ω resistor, then to the LED's positive leg (anode).
